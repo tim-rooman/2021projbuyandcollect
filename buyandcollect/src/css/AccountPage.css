@@ -1,0 +1,34 @@
+.infoContainer{
+    text-align: center;
+    background-color: white;
+    padding: 5rem;
+    padding-top: 2rem;
+    width: 50%;
+    -moz-box-shadow: 0.5rem 1rem 0.5rem 0rem lightgray;
+    -webkit-box-shadow: 0.5rem 1rem 0.5rem 0rem lightgray;
+    box-shadow: 0.5rem 1rem 0.5rem 0rem lightgray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.1rem solid #1C2149;
+    outline-style: solid;
+    outline-width: thin;
+    margin-bottom: 2rem;
+}
+
+.textContainer p {
+    width: 50%;
+    text-align:center;
+    padding: 2.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .infoContainer{
+      width: 70%;
+    }
+  }

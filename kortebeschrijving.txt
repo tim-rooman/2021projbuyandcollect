@@ -1,0 +1,2 @@
+Dit project is een concept voor een verkoop en koop systeem. Dit houdt in dat de verkoper een product beschikbaar kan stellen op een website en kopers dit kunnen kopen.
+De koper krijgt dan een code die hij/zij kan gebruiken om de locker te kunnen openen bij een op te halen locatie en het gekochte product er uit te halen.

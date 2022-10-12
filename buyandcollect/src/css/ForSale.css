@@ -1,0 +1,47 @@
+.MainSaleContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ProductContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    margin: 3rem;
+    width: 50rem;
+    max-height: 50rem;
+    -moz-box-shadow: 0.5rem 1rem 0.5rem 0rem lightgray;
+    -webkit-box-shadow: 0.5rem 1rem 0.5rem 0rem lightgray;
+    box-shadow: 0.5rem 1rem 0.5rem 0rem lightgray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.ProductInfoContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top: #1C2149 3px solid;
+    background-color: white;
+    width: 100%;
+    height: 25rem;
+}
+img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    .ProductContainer{
+      width: 40%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .ProductContainer{
+      width: 80%;
+    }
+  }
